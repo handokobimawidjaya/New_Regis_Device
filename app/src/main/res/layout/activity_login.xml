@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login"
+    android:id="@+id/relativ"
     tools:ignore="VectorDrawableCompat">
 
     <androidx.appcompat.widget.Toolbar
@@ -119,7 +120,7 @@
                             android:drawableLeft="@drawable/ic_email" />
 
                         <EditText
-                            android:id="@+id/username"
+                            android:id="@+id/email"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="10dp"
